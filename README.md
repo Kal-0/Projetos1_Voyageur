@@ -14,8 +14,9 @@ E por último, o mais importante: nosso quiz! Respoda perguntas para receber um 
 
 ### Como usar?
 
-Para executar o programa, execute-o em sua máquina!
+Para executar o programa, descomente as linhas 648 até 674 e execute-o em sua máquina, comente as linhas novamente e execute outra vez,
+isso irá gerar um banco de dados pré criado por nós. Com isso o programa estará pronto para execução!
 
 ##### em caso de bugs:
 
-Caso o banco de dados esteja com algum problema, recomendamos que voce descomente da linha 648 até a 674, rode o programa e as comente novamente. Isso vai fazer com que os usuários e comentários nas atividades resetem.
+Caso o banco de dados esteja com algum problema, recomendamos que voce repita o processo inicial e descomente da linha 648 até a 674, rode o programa e as comente novamente. Isso vai fazer com que os usuários e comentários nas atividades resetem.
