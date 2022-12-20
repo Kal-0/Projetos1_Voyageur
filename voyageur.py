@@ -645,33 +645,33 @@ def main():
           archive = loadData()
 
   
-passeioMaragogi = Atividade( 1, "imagem passeio Maragogi",  "Passeio à maragogi", [5, 4, 3], "Saindo de maceió, ao norte, você visitará piscinas naturais", "9h", ["Bom para crianças","Natureza","Praia","Pet friendly", "Bom para idosos"], ["Catamarã", "Apoio no Restaurante pontal do maragogi"], "Pontal do Maragogi, Rodovia AL 101 Norte, Km 130 s/n Burgalhau - Barra Grande, Maragogi - AL, 57799-000, Brazil", [], "passeios")
-passeioMarape = Atividade(2, "imagem passeio Marapé",  "Passeio às Dunas de Marapé", [5, 4, 3], "Paraíso ecológico formado entre a Praia de Duas Barras e o Rio Jequiá. Além disso, pode também visualizar falésias.", "7h", ["Natureza","Aventura"], ["passeio de buggy", "Barraquinha","Day-use", "Circuito Pau-de-Arara", "Trilha dos Caetés"], "Povoado Barra de Jequia SN Duas Barras - Jequiá da Praia - Litoral Sul de Alagoas - 50 min de Maceió, Jequiá da Praia, Alagoas 57244-000 Brasil", [], "passeios")
-passeioHibiscus = Atividade(3, "imagem passeio Hibiscus",  "Passeio à ipipoca no Hibiscus beach club", [5, 4, 3], "Ida a praia de IPIOCA pra aproveitar um dia relaxante no beach club.", "3h30", ["Relaxante","Para casais","Bom para crianças","Natureza","Praia"], ["Passeios Náuticos", "Massagem relaxante","Área HIBISQUINHO para crianças","Passeio de lancha, Stand-up paddling e Caiaque"], "Rodovia AL 101 Norte, Bairro Ipioca Residencial Angra de Ipioca, Maceió, Alagoas 57039-705 Brasil", [], "passeios")
-resturanteJanga = Atividade(4, "imagem peixe frito", "Resturante Janga Praia", [4,4,5], " Restaurante em Maceió de comida Brasileira e de Frutos do mar, que tem opções vegetarianas", "1h", ["Restaurantes", "Bom para criança", "Para casais", "Bom para idoso", "Relaxante"], [],"Avenida Silvio Carlos Viana 1731 Ponta Verde, Maceió, Alagoas 57035-160 Brasil",[], "restaurantes")
-resturanteMaria = Atividade(5, "imagem prato italiano e taça de vinho", "Resturante Maria Antonieta", [5,4,2], " Restaurante em Maceió de comida Italiana, Frutos do mar e Grelhados", "1h30", ["Restaurantes", "Para casais", "Bom para idoso", "Cultural"], [], "Avenida Doutor Antônio Gomes de Barros 150 Jatiuca, Maceió, Alagoas 57036-000 Brasil",[], "restaurantes")
-resturanteWanchako = Atividade(6, "imagem de ceviche", "Resturante Wanchako", [4,4,4], " Restaurante em Maceió de comida Peruana, Latina e de Frutos do mar", "1h30", ["Restaurantes", "Para casais", "Bom para idoso", "Cultural"], []," Rua São Francisco de Assis, 93 Jatiúca, Maceió, Alagoas 57045-690 Brasil",[], "restaurantes")
-praiaDeIpioca = Atividade( 7, "imagem praia de Ipioca",  "Praia de Ipioca", [5, 5, 5], "Praia ao sul de Maceió, meio deserta e de águas calmas", "3h", ["Bom para crianças","Natureza","Praia","Pet friendly", "Só para casais"], ["Passeio de bike", "Passeio de jangada"], "AL-101 rua Antônio Sabino de Sá 251, Maceió, Alagoas 57039-705 Brasil",[], "praias")
-praiaDoGunga = Atividade( 8, "imagem do Mirante do Gunga",  "Praia do Gunga", [2, 4, 3], "Praia ao norte de Maceió, bem turistica e movimentada, com muitos coqueirinhos", "5h", ["Bom para crianças","Natureza","Praia","Pet friendly", "Só para casais", "Bom para Idoso", "Aventura"], ["Passeio de Quadriciclo", "Passeio de jangada"], "Praia do Gunga, AL",[], "praias")
-praiaDoFrances = Atividade( 9, "imagem praia do Francês",  "Praia do Francês", [4, 4, 3], "Praia ao norte de Maceió, bem turistica e relaxante", "4h", ["Bom para crianças","Natureza","Praia","Pet friendly", "Só para casais", "Bom para Idoso"], ["Aluguel de Stand up"], "Praia do Francês, Marechal Deodoro, Alagoas", [], "praias")
+# passeioMaragogi = Atividade( 1, "imagem passeio Maragogi",  "Passeio à maragogi", [5, 4, 3], "Saindo de maceió, ao norte, você visitará piscinas naturais", "9h", ["Bom para crianças","Natureza","Praia","Pet friendly", "Bom para idosos"], ["Catamarã", "Apoio no Restaurante pontal do maragogi"], "Pontal do Maragogi, Rodovia AL 101 Norte, Km 130 s/n Burgalhau - Barra Grande, Maragogi - AL, 57799-000, Brazil", [], "passeios")
+# passeioMarape = Atividade(2, "imagem passeio Marapé",  "Passeio às Dunas de Marapé", [5, 4, 3], "Paraíso ecológico formado entre a Praia de Duas Barras e o Rio Jequiá. Além disso, pode também visualizar falésias.", "7h", ["Natureza","Aventura"], ["passeio de buggy", "Barraquinha","Day-use", "Circuito Pau-de-Arara", "Trilha dos Caetés"], "Povoado Barra de Jequia SN Duas Barras - Jequiá da Praia - Litoral Sul de Alagoas - 50 min de Maceió, Jequiá da Praia, Alagoas 57244-000 Brasil", [], "passeios")
+# passeioHibiscus = Atividade(3, "imagem passeio Hibiscus",  "Passeio à ipipoca no Hibiscus beach club", [5, 4, 3], "Ida a praia de IPIOCA pra aproveitar um dia relaxante no beach club.", "3h30", ["Relaxante","Para casais","Bom para crianças","Natureza","Praia"], ["Passeios Náuticos", "Massagem relaxante","Área HIBISQUINHO para crianças","Passeio de lancha, Stand-up paddling e Caiaque"], "Rodovia AL 101 Norte, Bairro Ipioca Residencial Angra de Ipioca, Maceió, Alagoas 57039-705 Brasil", [], "passeios")
+# resturanteJanga = Atividade(4, "imagem peixe frito", "Resturante Janga Praia", [4,4,5], " Restaurante em Maceió de comida Brasileira e de Frutos do mar, que tem opções vegetarianas", "1h", ["Restaurantes", "Bom para criança", "Para casais", "Bom para idoso", "Relaxante"], [],"Avenida Silvio Carlos Viana 1731 Ponta Verde, Maceió, Alagoas 57035-160 Brasil",[], "restaurantes")
+# resturanteMaria = Atividade(5, "imagem prato italiano e taça de vinho", "Resturante Maria Antonieta", [5,4,2], " Restaurante em Maceió de comida Italiana, Frutos do mar e Grelhados", "1h30", ["Restaurantes", "Para casais", "Bom para idoso", "Cultural"], [], "Avenida Doutor Antônio Gomes de Barros 150 Jatiuca, Maceió, Alagoas 57036-000 Brasil",[], "restaurantes")
+# resturanteWanchako = Atividade(6, "imagem de ceviche", "Resturante Wanchako", [4,4,4], " Restaurante em Maceió de comida Peruana, Latina e de Frutos do mar", "1h30", ["Restaurantes", "Para casais", "Bom para idoso", "Cultural"], []," Rua São Francisco de Assis, 93 Jatiúca, Maceió, Alagoas 57045-690 Brasil",[], "restaurantes")
+# praiaDeIpioca = Atividade( 7, "imagem praia de Ipioca",  "Praia de Ipioca", [5, 5, 5], "Praia ao sul de Maceió, meio deserta e de águas calmas", "3h", ["Bom para crianças","Natureza","Praia","Pet friendly", "Só para casais"], ["Passeio de bike", "Passeio de jangada"], "AL-101 rua Antônio Sabino de Sá 251, Maceió, Alagoas 57039-705 Brasil",[], "praias")
+# praiaDoGunga = Atividade( 8, "imagem do Mirante do Gunga",  "Praia do Gunga", [2, 4, 3], "Praia ao norte de Maceió, bem turistica e movimentada, com muitos coqueirinhos", "5h", ["Bom para crianças","Natureza","Praia","Pet friendly", "Só para casais", "Bom para Idoso", "Aventura"], ["Passeio de Quadriciclo", "Passeio de jangada"], "Praia do Gunga, AL",[], "praias")
+# praiaDoFrances = Atividade( 9, "imagem praia do Francês",  "Praia do Francês", [4, 4, 3], "Praia ao norte de Maceió, bem turistica e relaxante", "4h", ["Bom para crianças","Natureza","Praia","Pet friendly", "Só para casais", "Bom para Idoso"], ["Aluguel de Stand up"], "Praia do Francês, Marechal Deodoro, Alagoas", [], "praias")
 
-usuarios = []
-arrayUsuarios = usuarios
-arrayAtividades = [passeioMaragogi, passeioHibiscus, passeioMarape, resturanteJanga, resturanteMaria, resturanteWanchako, praiaDeIpioca, praiaDoFrances, praiaDoGunga]
-arrayPasseios = [passeioMaragogi, passeioMarape, passeioHibiscus]
-arrayPraias = [praiaDeIpioca, praiaDoFrances, praiaDoGunga]
-arrayRestaurantes = [resturanteJanga, resturanteMaria, resturanteWanchako]
-listTudo = [usuarios, arrayAtividades, arrayPasseios, arrayPraias, arrayRestaurantes]
-arrayRoteiros = [[passeioMaragogi, praiaDeIpioca,resturanteJanga],[passeioMarape,praiaDoFrances,resturanteMaria],[passeioHibiscus,praiaDoGunga,resturanteWanchako]]
-dictTudo = {
-    "usuarios" : arrayUsuarios, 
-    "atividades" : arrayAtividades,
-    "passeios" : arrayPasseios,
-    "praias" : arrayPraias,
-    "restaurantes" : arrayRestaurantes,
-    "roteiros":  arrayRoteiros
-}
-saveData(dictTudo)
+# usuarios = []
+# arrayUsuarios = usuarios
+# arrayAtividades = [passeioMaragogi, passeioHibiscus, passeioMarape, resturanteJanga, resturanteMaria, resturanteWanchako, praiaDeIpioca, praiaDoFrances, praiaDoGunga]
+# arrayPasseios = [passeioMaragogi, passeioMarape, passeioHibiscus]
+# arrayPraias = [praiaDeIpioca, praiaDoFrances, praiaDoGunga]
+# arrayRestaurantes = [resturanteJanga, resturanteMaria, resturanteWanchako]
+# listTudo = [usuarios, arrayAtividades, arrayPasseios, arrayPraias, arrayRestaurantes]
+# arrayRoteiros = [[passeioMaragogi, praiaDeIpioca,resturanteJanga],[passeioMarape,praiaDoFrances,resturanteMaria],[passeioHibiscus,praiaDoGunga,resturanteWanchako]]
+# dictTudo = {
+#     "usuarios" : arrayUsuarios, 
+#     "atividades" : arrayAtividades,
+#     "passeios" : arrayPasseios,
+#     "praias" : arrayPraias,
+#     "restaurantes" : arrayRestaurantes,
+#     "roteiros":  arrayRoteiros
+# }
+# saveData(dictTudo)
 
 
 archive = loadData()
